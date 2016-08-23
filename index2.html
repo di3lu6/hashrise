@@ -81,13 +81,13 @@
 						<!-- isotope filters start -->
 						<div class="filters text-center">
 							<ul class="nav nav-pills">
-								<li class="active"><a href="#" data-filter="*">All</a></li>
-								<li><a href="#" data-filter=".pentest">Penetration Testing</a></li>
-								<li><a href="#" data-filter=".assessment">Vulnerability Assessments</a></li>
-								<li><a href="#" data-filter=".appsec">Application Security</a></li>
-								<li><a href="#" data-filter=".pciserv">PCI-DSS Required Services</a></li>
-                                <li><a href="#" data-filter=".capacitacion">Training/Courses</a></li>
-                                <li><a href="#" data-filter=".others">Other</a></li>
+								<li class="active"><a href="#" data-filter="*">Todos</a></li>
+								<li><a href="#" data-filter=".pentest">Pruebas de penetración</a></li>
+								<li><a href="#" data-filter=".assessment">Análisis de vulnerabilidades</a></li>
+								<li><a href="#" data-filter=".appsec">Seguridad de aplicaciones</a></li>
+								<li><a href="#" data-filter=".pciserv">Servicios requeridos PCI-DSS</a></li>
+                                <li><a href="#" data-filter=".capacitacion">Cursos talleres</a></li>
+                                <li><a href="#" data-filter=".others">Otros</a></li>
                             </ul>
 						</div>
 						<!-- isotope filters end -->
@@ -100,10 +100,10 @@
 										<img src="images/metasploit.jpg" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#pentest-interno">
 											<i class="fa fa-search-plus"></i>
-											<span>Penetration Testing</span>
+											<span>Pruebas de penetración</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#pentest-interno">Internal Penetration Testing</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#pentest-interno">Prueba de penetración interna</a>
 								</div>
 								<!-- Modal -->
 								<div class="modal fade" id="pentest-interno" tabindex="-1" role="dialog" aria-labelledby="pentest-interno-label" aria-hidden="true">
@@ -111,20 +111,20 @@
 										<div class="modal-content">
 											<div class="modal-header">
 												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="pentest-interno-label">Internal Penetration Testing</h4>
+												<h4 class="modal-title" id="pentest-interno-label">Prueba de penetración interna</h4>
 											</div>
 											<div class="modal-body">
-												<h3>Description</h3>
+												<h3>Descripción</h3>
 												<div class="row">
 													<div class="col-md-6">
-														<p>It is a security test where we simulate a real attack from within the internal network (by an intruder or a disgrunted employee), in order to detect how vulnerable your company's network really is.</p>
-														<p>The Penetration Testing starts with the same tasks included in a Vulnerability Assessment. After that, the real risk level is verified by exploiting the found vulnerabilities and all their possible combinations.</p>
-                                                        <p>Its phases are:</p>
+														<p>Es una prueba de seguridad que simula un ataque real desde la red interna LAN (por un intruso o empleado disgustado), con el objetivo de conocer cuan vulnerable es su organización realmente.</p>
+														<p>La prueba de penetración comienza con las mismas tareas que el análisis de vulnerabilidades. Luego de ello, el riesgo real es verificado aprovechando las vulnerabilidades y todas las posibles combinaciones.</p>
+                                                        <p>Las fases del servicio son:</p>
                                                         <ul>
-                                                            <li>Discovery.</li>
-                                                            <li>Vulnerability Analysis.</li>
-                                                            <li>Exploitation.</li>
-                                                            <li>Privilege escalation and mantaining access.</li>
+                                                            <li>Descubrimientos.</li>
+                                                            <li>Análisis de vulnerabilidades.</li>
+                                                            <li>Explotación.</li>
+                                                            <li>Escalación de privilegios y mantenimiento de accesos</li>
                                                         </ul>
 													</div>
 													<div class="col-md-6">
@@ -133,54 +133,7 @@
 												</div>
 											</div>
 											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
-								</div>
-								<!-- Modal end -->
-							</div>
-
-                            <div class="col-sm-6 col-md-3 isotope-item pentest">
-								<div class="image-box">
-									<div class="overlay-container">
-										<img src="images/external-attack.jpg" alt="">
-										<a class="overlay" data-toggle="modal" data-target="#pentest-externo">
-											<i class="fa fa-search-plus"></i>
-											<span>Penetration Testing</span>
-										</a>
-									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#pentest-externo">External Penetration Testing</a>
-								</div>
-								<!-- Modal -->
-								<div class="modal fade" id="pentest-externo" tabindex="-1" role="dialog" aria-labelledby="pentest-externo-label" aria-hidden="true">
-									<div class="modal-dialog modal-lg">
-										<div class="modal-content">
-											<div class="modal-header">
-												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-												<h4 class="modal-title" id="pentest-interno-label">External Penetration Testing</h4>
-											</div>
-											<div class="modal-body">
-												<h3>Description</h3>
-												<div class="row">
-													<div class="col-md-6">
-														<p>It is a security test where we simulate a real attack from the Internet, in order to detect how vulnerable your company's network really is.</p>
-														<p>The Penetration Testing starts with the same tasks included in a Vulnerability Assessment. Then, the real risk level is verified by exploiting the found vulnerabilities and all their possible combinations.</p>
-                                                        <p>Its phases are:</p>
-                                                        <ul>
-                                                            <li>Discovery.</li>
-                                                            <li>Vulnerability Analysis.</li>
-                                                            <li>Exploitation.</li>
-                                                            <li>Privilege escalation and mantaining access.</li>
-                                                        </ul>
-													</div>
-													<div class="col-md-6">
-														<img src="images/external-attack.jpg" alt="">
-													</div>
-												</div>
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cerrar</button>
 											</div>
 										</div>
 									</div>
