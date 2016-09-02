@@ -38,3 +38,20 @@ File Description: Place here your custom CSS styles
 background-color: rgba(0, 0, 0, 0.70);
 }
 
+/* visibility rules */
+
+/* all sections are off by default */
+body > section { display:none; }
+
+body.contract           > section#contract,
+body.main    > section#main,
+body.demo > section#demo { display:block; }
+
+/* nav styling */
+nav     { background:#555; padding:10px 10px 0 10px; }
+nav > a { display:inline-block; color: white; padding:4px 10px; }
+
+/* nav highlightion rules */
+body.contract           > nav > a[href="#contract"],
+body.main    > nav > a[href="#main"],
+body.demo > nav > a[href="#demo"] { background:white; color:black; }
